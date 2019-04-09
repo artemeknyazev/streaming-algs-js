@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "umd",
+    "target": "esnext",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "*": [ "node_modules/*" ]
+    },
+    "types": [ "node", "jest" ]
+  },
+  "exclude": [ "node_modules" ],
+  "include": [ "src/**/*" ]
+}
