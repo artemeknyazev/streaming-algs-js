@@ -13,11 +13,11 @@
   "author": "Artem E. Knyazev <artem.e.knyazev@yandex.ru>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-typescript": "^7.3.3",
     "@types/jest": "^24.0.11",
     "@types/node": "^11.13.2",
     "babel-jest": "^24.7.1",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-typescript": "^7.0.0-alpha.19",
     "husky": "^1.3.1",
     "jest": "^24.7.1",
     "typescript": "^3.4.2"
